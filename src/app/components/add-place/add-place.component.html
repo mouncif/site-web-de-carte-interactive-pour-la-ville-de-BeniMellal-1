@@ -1,0 +1,26 @@
+<h1 mat-dialog-title>Nouveau place</h1>
+<div mat-dialog-content>
+    <p>remplir tous les champs obligatoire(*)</p>
+    <mat-form-field>
+        <mat-label>Nom</mat-label>
+        <input matInput [(ngModel)]="place.name" required>
+    </mat-form-field>
+    <!-- <div class="mat-app-background basic-container"> -->
+    <mat-form-field>
+        <mat-label>Description</mat-label>
+        <input matInput [(ngModel)]="place.description" required>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Type</mat-label>
+        <mat-select [(ngModel)]="place.type" required>
+            <mat-option *ngFor="let type of types" [value]="type.title">
+                {{type.title}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+    <!-- </div> -->
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Annuler</button>
+    <button mat-button [mat-dialog-close]="place" cdkFocusInitial>Enregistrer</button>
+</div>

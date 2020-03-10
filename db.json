@@ -1,0 +1,435 @@
+{
+  "types": [
+    {
+      "id": 1,
+      "title": "hôtel",
+      "icon": "hotel",
+      "color": "#c30b82"
+    },
+    {
+      "id": 2,
+      "title": "café",
+      "icon": "local_cafe",
+      "color": "#006064"
+    },
+    {
+      "id": 3,
+      "title": "restaurant",
+      "icon": "local_dining",
+      "color": "#c62828"
+    },
+    {
+      "id": 4,
+      "title": "banque",
+      "icon": "account_balance",
+      "color": "#5d4037"
+    },
+    {
+      "id": 5,
+      "title": "store",
+      "icon": "local_grocery_store",
+      "color": "#455a64"
+    },
+    {
+      "id": 6,
+      "title": "pharmacie",
+      "icon": "local_pharmacy",
+      "color": "red"
+    },
+    {
+      "id": 7,
+      "title": "parking",
+      "icon": "local_parking",
+      "color": "red"
+    }
+  ],
+  "places": [
+    {
+      "id": 1,
+      "type": "restaurant",
+      "name": "Vert resto",
+      "description": "description Vert resto",
+      "image": "restaurant.jpg",
+      "x": 1,
+      "y": 1
+    },
+    {
+      "id": 2,
+      "type": "hôtel",
+      "name": "Ibis",
+      "description": "description hôtel Ibis",
+      "image": "restaurant.jpg",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": 10,
+      "type": "café",
+      "name": "BORJ ATLAS",
+      "description": "CAFE BORJ ATLAS ",
+      "image": "cofee.jpg",
+      "x": 32.346291,
+      "y": -6.346304
+    },
+    {
+      "id": 4,
+      "type": "café",
+      "name": "CAFE MISTRAL",
+      "description": "cafe BORJ MISTRAL",
+      "image": "cofee.jpg",
+      "x": 32.346022,
+      "y": -6.340939
+    },
+    {
+      "id": 5,
+      "type": "café",
+      "name": "CAFE MARJANA ",
+      "description": "CAFE MARJANA PRES DE LYCEE TECHNOQUE ",
+      "image": "cofee.jpg",
+      "x": 32.347762,
+      "y": -6.342135
+    },
+    {
+      "id": 6,
+      "type": "café",
+      "name": "CAFE cesar ",
+      "description": "CAFE CESAR ",
+      "image": "cofee.jpg",
+      "x": 32.331633,
+      "y": -6.361779
+    },
+    {
+      "id": 8,
+      "type": "café",
+      "name": "CAFE HALA",
+      "description": "cafe HALA ",
+      "image": "cofee.jpg",
+      "x": 32.332846,
+      "y": -6.362605
+    },
+    {
+      "id": 10,
+      "type": "restaurant",
+      "name": "MCDONALD'S ",
+      "description": " MCDONALD'S Beni mellal ",
+      "image": "restaurant.jpg",
+      "x": 32.330282,
+      "y": -6.367959
+    },
+    {
+      "id": 10,
+      "type": "restaurant",
+      "name": "MAGIC ICE ",
+      "description": "restaurant magic ice ",
+      "image": "restaurant.jpg",
+      "x": 32.331667,
+      "y": -6.362394
+    },
+    {
+      "id": 10,
+      "type": "restaurant",
+      "name": "MESK LIL",
+      "description": "MESKLIL ",
+      "image": "restaurant.jpg",
+      "x": 32.337356,
+      "y": -6.3494
+    },
+    {
+      "id": 10,
+      "type": "restaurant",
+      "name": "Cool Tacos FastFood",
+      "description": "Cool Tacos FastFood ",
+      "image": "restaurant.jpg",
+      "x": 32.344277,
+      "y": -6.341652
+    },
+    {
+      "id": 10,
+      "type": "restaurant",
+      "name": "Auberge RAMZ'S Jnane El Bacha Boujmaa Quartier AYAT ",
+      "description": "Auberge RAMZ'S Jnane El Bacha",
+      "image": "restaurant.jpg",
+      "x": 32.322308,
+      "y": -6.342663
+    },
+    {
+      "id": 10,
+      "type": "restaurant",
+      "name": "Snack Sydney",
+      "description": "Snack Sydne ",
+      "image": "restaurant.jpg",
+      "x": 32.333471,
+      "y": -6.363403
+    },
+    {
+      "id": 10,
+      "type": "restaurant",
+      "name": "Snack Dallas",
+      "description": "Snack Dallas ",
+      "image": "restaurant.jpg",
+      "x": 32.334839,
+      "y": -6.361266
+    },
+    {
+      "id": 2,
+      "type": "hôtel",
+      "name": "Hotel Iman ALkhalil",
+      "description": "Hotel Iman ALkhalil",
+      "image": "hotel.jpg",
+      "x": 32.337766,
+      "y": -6.373384
+    },
+    {
+      "id": 2,
+      "type": "hôtel",
+      "name": "Hôtel Al Bassatine ",
+      "description": "Hôtel Al Bassatine ",
+      "image": "hotel.jpg",
+      "x": 32.337174,
+      "y": -6.376059
+    },
+    {
+      "id": 2,
+      "type": "hôtel",
+      "name": "Hotel Hannioui",
+      "description": "Hotel Hannioui",
+      "image": "hotel.jpg",
+      "x": 32.344411,
+      "y": -6.361631
+    },
+    {
+      "id": 2,
+      "type": "hôtel",
+      "name": "Hotel Ain Asserdoun ",
+      "description": "Hotel Ain Asserdoun ",
+      "image": "hotel.jpg",
+      "x": 32.34107,
+      "y": -6.369797
+    },
+    {
+      "id": 2,
+      "type": "hôtel",
+      "name": "Hôtel ZIDANIA",
+      "description": "description Hôtel ZIDANIA",
+      "image": "hotel.jpg",
+      "x": 32.344088,
+      "y": -6.357682
+    },
+    {
+      "id": 2,
+      "type": "hôtel",
+      "name": "HOTEL VENEZIA",
+      "description": "HOTEL VENEZIA",
+      "image": "hotel.jpg",
+      "x": 32.344049,
+      "y": -6.357403
+    },
+    {
+      "id": 2,
+      "type": "hôtel",
+      "name": "Complexe Touristique Kahrama",
+      "description": "Complexe Touristique Kahrama",
+      "image": "hotel.jpg",
+      "x": 32.32295,
+      "y": -6.341984
+    },
+    {
+      "id": 2,
+      "type": "banque",
+      "name": "Banque populaire ",
+      "description": "description de la banque populaire ",
+      "image": "bank.jpg",
+      "x": 32.337382,
+      "y": -6.350916
+    },
+    {
+      "id": 2,
+      "type": "banque",
+      "name": "Banque CIH ",
+      "description": "description de la banque    CIH ",
+      "image": "bank.jpg",
+      "x": 32.33874,
+      "y": -6.346775
+    },
+    {
+      "id": 2,
+      "type": "banque",
+      "name": "Banque CIH ",
+      "description": "description de la banque    CIH ",
+      "image": "bank.jpg",
+      "x": 32.334155,
+      "y": -6.359194
+    },
+    {
+      "id": 2,
+      "type": "banque",
+      "name": "Banque BMCE  ",
+      "description": "description de la banque    BMCE ",
+      "image": "bank.jpg",
+      "x": 32.33297,
+      "y": -6.361474
+    },
+    {
+      "id": 2,
+      "type": "banque",
+      "name": "Wafa Salaf banque ",
+      "description": "Wafa Salaf banque  ",
+      "image": "bank.jpg",
+      "x": 32.332138,
+      "y": -6.363816
+    },
+    {
+      "id": 2,
+      "type": "banque",
+      "name": "Société Générale banque ",
+      "description": "Société Générale banque",
+      "image": "bank.jpg",
+      "x": 32.335302,
+      "y": -6.364245
+    },
+    {
+      "id": 2,
+      "type": "store",
+      "name": "BIM Store",
+      "description": "BIM STORE ",
+      "image": "store.jpg",
+      "x": 32.3344,
+      "y": -6.364655
+    },
+    {
+      "id": 2,
+      "type": "store",
+      "name": "Acima super marché",
+      "description": "Acima super marché",
+      "image": "store.jpg",
+      "x": 32.330712,
+      "y": -6.366986
+    },
+    {
+      "id": 2,
+      "type": "store",
+      "name": "DeFacto Beni Mellal",
+      "description": "DeFacto Beni Mellal",
+      "image": "store.jpg",
+      "x": 32.336331,
+      "y": -6.356207
+    },
+    {
+      "id": 2,
+      "type": "store",
+      "name": "Marjane Beni Mellal",
+      "description": "Marjane Beni Mellal",
+      "image": "store.jpg",
+      "x": 32.343175,
+      "y": -6.360724
+    },
+    {
+      "id": 2,
+      "type": "store",
+      "name": "Carrefour Market Beni Mellal",
+      "description": "Carrefour Market Beni Mellal",
+      "image": "restaurant.jpg",
+      "x": 32.331782,
+      "y": -6.352985
+    },
+    {
+      "id": 2,
+      "type": "store",
+      "name": "Market 24h",
+      "description": " store Market 24h ",
+      "image": "restaurant.jpg",
+      "x": 32.331782,
+      "y": -6.352985
+    },
+    {
+      "id": 2,
+      "type": "pharmacie",
+      "name": "Pharmacie les martyrs",
+      "description": "Phamacie ",
+      "image": "pharmacie.jpg",
+      "x": 32.350875,
+      "y": -6.351114
+    },
+    {
+      "id": 2,
+      "type": "pharmacie",
+      "name": "Pharmacie Rachdaoui",
+      "description": "Phamacie ",
+      "image": "pharmacie.jpg",
+      "x": 32.35017,
+      "y": -6.345908
+    },
+    {
+      "id": 2,
+      "type": "pharmacie",
+      "name": "Pharmacie Elhouda",
+      "description": "Phamacie ",
+      "image": "restaurant.jpg",
+      "x": 32.34268,
+      "y": -6.350008
+    },
+    {
+      "id": 2,
+      "type": "pharmacie",
+      "name": "Pharmacie Bissmillah",
+      "description": "Phamacie ",
+      "image": "pharmacie.jpg",
+      "x": 32.355007,
+      "y": -6.360611
+    },
+    {
+      "id": 2,
+      "type": "pharmacie",
+      "name": "Alpha Medic Passe",
+      "description": "Phamacie ",
+      "image": "pharmacie.jpg",
+      "x": 32.32815,
+      "y": -6.354431
+    },
+    {
+      "id": 2,
+      "type": "pharmacie",
+      "name": "Pharmacie Belle Vue",
+      "description": "Phamacie belle vue ",
+      "image": "pharmacie.jpg",
+      "x": 32.32772,
+      "y": -6.360689
+    },
+    {
+      "id": 2,
+      "type": "parking",
+      "name": "Parking Carrefour market",
+      "description": "PARKING CARREFOUR",
+      "image": "parking.jpg",
+      "x": 32.33147,
+      "y": -6.353504
+    },
+    {
+      "id": 2,
+      "type": "parking",
+      "name": "Parking Ain Asserdoune",
+      "description": "PARKING AIN ASSERDOUN ",
+      "image": "parking.jpg",
+      "x": 32.324756,
+      "y": -6.33641
+    },
+    {
+      "id": 2,
+      "type": "parking",
+      "name": "Parking Acima",
+      "description": "Parking ACIMA",
+      "image": "parking.jpg",
+      "x": 32.33074,
+      "y": -6.366932
+    },
+    {
+      "x": 32.33529947261555,
+      "y": -6.405029296875001,
+      "name": "restaurant aaa",
+      "description": "restaurant ",
+      "type": "restaurant",
+      "image": "restaurant.jpg",
+      "id": 11
+    }
+  ]
+}
